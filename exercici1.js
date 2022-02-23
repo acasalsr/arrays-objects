@@ -9,6 +9,7 @@ let contador = 1;
 let numMax = 0;
 let numMin = 0;
 let suma = 0;
+let mitjana = 0;
 let pv = true;
 
 for (let i = 0; i < arr.length; i++) {
@@ -19,6 +20,9 @@ for (let i = 0; i < arr.length; i++) {
   suma = arr[i] + suma;
   contador++;
 }
+mitjana = suma / arr.length;
+
 console.log(numMax);
 console.log(numMin);
 console.log(suma);
+console.log(mitjana);
